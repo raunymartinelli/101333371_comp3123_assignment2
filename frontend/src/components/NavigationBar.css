@@ -1,0 +1,28 @@
+/* NavigationBar.css */
+
+nav {
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+    padding: 1rem; /* Add some padding around the navigation bar */
+    background-color: #f8f9fa; /* Light background color for the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow to lift the navbar off the page */
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 1rem; /* Add space between navigation links */
+    color: #007bff; /* Bootstrap primary color for links */
+    font-weight: 500; /* Make the font a little bolder */
+    padding: 0.25rem 0; /* Padding to increase click area */
+    border-bottom: 3px solid transparent; /* Transparent border for a hover effect */
+    transition: border-color 0.3s ease-in-out; /* Smooth transition for the hover effect */
+}
+
+nav a:hover {
+    border-bottom-color: #007bff; /* Border color on hover */
+}
+
+nav a.active {
+    border-bottom-color: #0056b3; /* Border color for active link */
+    color: #0056b3; /* Darker color for active link */
+}
